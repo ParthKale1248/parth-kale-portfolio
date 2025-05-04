@@ -89,35 +89,70 @@ const CommunicationIcon = () => (
 const Skills: React.FC = () => {
   const skillCategories = [
     {
-      title: "Core Technologies",
-      icon: <IoTIcon />,
-      items: ["Internet of Things (IoT)", "Python", "Android Development"]
+      title: "Programming Languages & IDEs",
+      icon: <EmbeddedIcon />,
+      items: [
+        "C",
+        "Embedded C",
+        "Python",
+        "MicroPython",
+        "Rust",
+        "Flutter",
+        "Arduino IDE",
+        "Thonny",
+        "VS Code",
+        "Android Studio",
+      ],
     },
     {
-      title: "Embedded Systems",
-      icon: <EmbeddedIcon />,
-      items: ["C & Embedded C", "Real-Time Operating Systems (RTOS)", "Microcontrollers & Peripherals"]
+      title: "Embedded Platforms & Boards",
+      icon: <HardwareIcon />,
+      items: [
+        "Arduino (UNO, Nano, Pro Mini, Mega, Leonardo, Nano 33 IoT)",
+        "ESP8266",
+        "ESP32",
+        "Raspberry Pi Pico",
+      ],
+    },
+    {
+      title: "Hardware Interfacing & Prototyping",
+      icon: <HardwareIcon />,
+      items: [
+        "Analog/Digital Sensors",
+        "Displays",
+        "Communication Modules",
+        "Breadboarding",
+        "Zero PCB Prototyping",
+        "PCB Design in Altium",
+        "Flux Soldering",
+      ],
+    },
+    {
+      title: "Protocols & Peripherals",
+      icon: <CommunicationIcon />,
+      items: [
+        "UART",
+        "I2C",
+        "SPI",
+        "MQTT",
+        "BLE",
+        "CAN",
+        "GPIO Control",
+        "Timers",
+        "ADC/DAC",
+        "Interrupt Handling",
+      ],
+    },
+    {
+      title: "Tools & OS",
+      icon: <Github className="skill-icon" />,
+      items: ["Linux (CLI & Scripting)", "Git", "GitHub"],
     },
     {
       title: "Sensors & Control",
       icon: <ControlIcon />,
-      items: ["Sensor Interfacing", "Motor Control & Drivers", "PID Controllers"]
+      items: ["Sensor Interfacing", "Motor Control & Drivers", "PID Controllers"],
     },
-    {
-      title: "Hardware Design",
-      icon: <HardwareIcon />,
-      items: ["PCB Design & Fabrication", "Circuit Analysis", "Soldering & Prototyping"]
-    },
-    {
-      title: "Communication",
-      icon: <CommunicationIcon />,
-      items: ["MQTT", "BLE", "CAN", "I2C", "SPI", "UART"]
-    },
-    {
-      title: "Collaboration",
-      icon: <Github className="skill-icon" />,
-      items: ["Git", "GitHub", "Documentation", "Team Collaboration"]
-    }
   ];
 
   return (
