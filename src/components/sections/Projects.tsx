@@ -30,7 +30,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             className="w-full h-full object-cover card-hover" 
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-navy/10 to-teal/10 card-hover">
+          <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-navy/10 to-navy/5 card-hover">
             <h3 className="font-mono text-xl text-navy">{title.substring(0, 2).toUpperCase()}</h3>
           </div>
         )}
