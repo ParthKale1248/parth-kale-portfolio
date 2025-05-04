@@ -121,6 +121,7 @@ const Skills: React.FC = () => {
         "Analog/Digital Sensors",
         "Displays",
         "Communication Modules",
+        "Zeo PCB",
         "Breadboarding",
         "Zero PCB Prototyping",
         "PCB Design in Altium",
