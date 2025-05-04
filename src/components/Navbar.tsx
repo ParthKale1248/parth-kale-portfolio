@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -35,7 +34,7 @@ const Navbar: React.FC = () => {
     <header
       className={cn(
         'fixed top-0 w-full z-50 transition-all duration-300',
-        scrolled ? 'py-3 bg-background/95 backdrop-blur-sm shadow-sm' : 'py-5'
+        scrolled ? 'py-3 bg-blue-900 backdrop-blur-sm shadow-sm' : 'py-5'
       )}
     >
       <div className="container flex justify-between items-center">
@@ -71,7 +70,7 @@ const Navbar: React.FC = () => {
       {/* Mobile Navigation */}
       <nav
         className={cn(
-          'fixed inset-0 bg-background/98 backdrop-blur-md flex flex-col items-center justify-center space-y-6 transition-transform duration-300 md:hidden',
+          'fixed inset-0 bg-blue-900 backdrop-blur-md flex flex-col items-center justify-center space-y-6 transition-transform duration-300 md:hidden',
           isOpen ? 'translate-x-0' : 'translate-x-full'
         )}
       >
