@@ -84,29 +84,44 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: "Autonomous Line-Following Robot",
-      description: "8-sensor QTRA array, TB6612 driver, PID steering for sharp 90° turns",
-      technologies: ["Arduino", "PID Control", "Motor Drivers", "Sensors"]
+      title: "Maze Solver Robot",
+      description: "13 analog sensors arranged in two rows for precise line detection, PID-based control loop, implements multiple pathfinding algorithms like wall-following and Dijkstra for efficient maze navigation",
+      technologies: ["PID Control", "Pathfinding Algorithms", "Sensors", "Microcontrollers"]
     },
     {
-      title: "IoT-Enabled Smart Container",
-      description: "ESP32 + MQTT server on Raspberry Pi 5, web dashboard for real-time fill-level & temperature monitoring",
-      technologies: ["ESP32", "MQTT", "Raspberry Pi", "Web Dashboard"]
+      title: "Line Follower Robot",
+      description: "Array of 16 digital IR sensors for line tracking, high-torque 4000 RPM DC motors, fine-tuned PID for smooth cornering and speed regulation",
+      technologies: ["IR Sensors", "DC Motors", "PID Control", "Electronics"]
     },
     {
-      title: "Kalman-Filtered Multi-Sensor Fusion System",
-      description: "Raspberry Pi Pico, LM35 temp, SW420 vibration, BMP180 pressure; Python plots of raw vs filtered vs fused data",
-      technologies: ["Raspberry Pi Pico", "Python", "Kalman Filter", "Data Visualization"]
+      title: "OTA-Based Microcontroller System",
+      description: "ESP32-based architecture with secure over-the-air firmware update pipeline, digital signatures and checksum validation for integrity",
+      technologies: ["ESP32", "OTA Updates", "Security", "Firmware"]
     },
     {
-      title: "RTOS-Based Maze-Solving Bot",
-      description: "FreeRTOS on STM32, ultrasonic and IR sensors, Dijkstra path-planning, backtracking logic",
-      technologies: ["FreeRTOS", "STM32", "Path Planning", "Sensors"]
+      title: "Secure Electronics for Cyber Threat Protection",
+      description: "Local mesh network of ESP devices storing sensor logs on a private blockchain, real-time anomaly detection and auto-disconnect on breach",
+      technologies: ["Mesh Network", "Blockchain", "Security", "IoT"]
     },
     {
-      title: "Over-The-Air (OTA) Reflashing Pipeline",
-      description: "Custom OTA protocol for ESP32 network; blockchain-backed update logs; auto-disconnect on security breach",
-      technologies: ["ESP32", "OTA Updates", "Blockchain", "Security"]
+      title: "Smart Inventory Management System",
+      description: "Load-cell integration with microcontroller, publishes weight data to MQTT broker, web dashboard displays real-time inventory levels with alert thresholds",
+      technologies: ["MQTT", "Load Cells", "Web Dashboard", "Real-time Monitoring"]
+    },
+    {
+      title: "Motion Analyser",
+      description: "MPU6050 IMU sensor paired with Raspberry Pi Pico, Python scripts for data capture, real-time plotting and motion parameter analytics",
+      technologies: ["Raspberry Pi Pico", "Python", "IMU Sensors", "Data Analytics"]
+    },
+    {
+      title: "Stock Market Trading Simulator App",
+      description: "Android application built with Java and XML layouts, utilizes Firebase for authentication and backend, simulates trading scenarios with virtual currency",
+      technologies: ["Android", "Java", "Firebase", "UI/UX"]
+    },
+    {
+      title: "Anti-COVID Door",
+      description: "IR temperature sensor at entry point, Arduino-based control logic to grant or deny access and send alerts if fever threshold is exceeded",
+      technologies: ["Arduino", "IR Sensors", "Automation", "Health Tech"]
     }
   ];
 
