@@ -41,7 +41,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 href={github} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-white hover:text-teal transition-colors"
+                className="text-white hover:text-navy/60 transition-colors"
                 aria-label="View GitHub repository"
               >
                 <Github size={24} />
@@ -52,7 +52,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 href={link} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-white hover:text-teal transition-colors"
+                className="text-white hover:text-navy/60 transition-colors"
                 aria-label="Visit project website"
               >
                 <ExternalLink size={24} />
