@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 const About: React.FC = () => {
   return (
@@ -18,9 +19,13 @@ const About: React.FC = () => {
               Currently pursuing my education in both Electronic Systems and Electronics & Computer Engineering, I'm constantly working to deepen my knowledge and apply my skills to practical, innovative projects.
             </p>
           </div>
-          <div className="bg-white rounded-lg p-6 shadow-lg border border-border">
-            <div className="aspect-square rounded-full overflow-hidden bg-gradient-to-br from-navy to-teal/30 flex items-center justify-center">
-              <div className="text-7xl font-display font-bold text-white">PK</div>
+          <div className="flex justify-center items-center">
+            <div className="rounded-full overflow-hidden border-4 border-teal shadow-lg h-64 w-64">
+              <img 
+                src="/lovable-uploads/28429b3f-6908-4c6e-ad4b-4b3b7de98540.png" 
+                alt="Parth Kale" 
+                className="h-full w-full object-cover"
+              />
             </div>
           </div>
         </div>
