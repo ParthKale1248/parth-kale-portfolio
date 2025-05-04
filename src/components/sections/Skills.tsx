@@ -146,7 +146,7 @@ const Skills: React.FC = () => {
     {
       title: "Tools & OS",
       icon: <Github className="skill-icon" />,
-      items: ["Linux (CLI & Scripting)", "Git", "GitHub"],
+      items: ["MacOS", "RTOS" ,"Linux (CLI & Scripting)", "Git", "GitHub"],
     },
     {
       title: "Sensors & Control",
