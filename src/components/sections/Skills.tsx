@@ -137,7 +137,6 @@ const Skills: React.FC = () => {
         "SPI",
         "MQTT",
         "BLE",
-        "CAN",
         "GPIO Control",
         "Timers",
         "ADC/DAC",
@@ -152,7 +151,7 @@ const Skills: React.FC = () => {
     {
       title: "Sensors & Control",
       icon: <ControlIcon />,
-      items: ["Sensor Interfacing", "Motor Control & Drivers", "PID Controllers"],
+      items: ["Sensor Interfacing", "Motor Control & Drivers" ,"PID", "PID Controllers"],
     },
   ];
 
